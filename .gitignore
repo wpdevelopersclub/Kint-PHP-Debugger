@@ -1,0 +1,18 @@
+# Unit tests config
+phpunit.xml
+.travis.yml
+/bin
+
+# Sass cache
+/.sass-cache
+
+# Development files
+/node_modules
+
+# OSX
+.DS_Store
+.idea/
+
+# Composer
+/src/composer
+/src/autoload.php

@@ -1,0 +1,27 @@
+{
+    "name" 			: "wpdevelopersclub/kint-php-debugger",
+    "description" 	: "WP Developers Club Podcast Plugin",
+    "type"          : "project",
+    "keywords" 		: ["wordpress", "kint", "wp", "plugin", "php-debugger", "php", "debugger"],
+    "homepage" 		: "http://wpdevelopersclub.com",
+    "license" 		: "GPL-2.0+",
+    "authors": [
+        {
+            "name" 	: "Tonya",
+            "email" : "hello@wpdevelopersclub.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.0",
+        "raveren/kint": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "vendor-dir": "src"
+    },
+    "minimum-stability": "dev"
+}
